@@ -1,0 +1,44 @@
+1. Explain the difference between a stack and a queue. Provide real life examples of
+real-life scenarios where each of them are used appropriately.
+
+A stack is a linear data structure in which elements can be inserted and deleted only from one side of the list.A stack follows the LIFO (Last In First Out) principle,which means that the element inserted at the last is the first element to come out.
+Queue is a linear data structure in which elements can be inserted only from one side of the list called rear, and the elements can be deleted only from the other side called the front. The queue data structure follows the FIFO (First In First Out) principle, which means that the element inserted at first in the list, is the first element to be removed from the list.
+For stack, the operations used are:
+-Push: adds an item to the top 
+-Pop: eemoves the top item
+and for the queue:
+-Enqueue: qdds an item to the back of the queue.
+-Dequeue: removes an item from the front of the queue
+
+An example of a real-life use for the STACK would be when a person accesses a web page and each new page is added to the top of the history stack. Pressing the back button removes the most recently visited page, following the LIFO principle.
+
+And an example for a QUEUE would be customers who join the queue in a supermarket in the order in which they arrive. The first customer to join the queue is the first to be served.
+
+2.What is the difference between an array and a linked list? Provide advantages and
+disadvantages of each data structure.
+
+Both Arrays and Linked List can be used to store linear data of similar types, but they both have some advantages and disadvantages.
+One of the most significant advantages of linked list over arrays is that linked lists can grow or shrink dynamically during runtime and the linked lists allow efficient insertion and deletion of elements at any position in the list, whereas arrays require shifting of elements when a new element is added or removed, which can be slow.
+Linked lists use memory more efficiently than arrays(linked lists only allocate memory for the elements that are used;in an array, all elements must be stored in contiguous memory locations, even if some of the elements are not used)
+
+
+
+3.What is HTTP? How is it different from HTTPS?
+HTTP (Hypertext Transfer Protocol) is a protocol used for transmitting data over the internet. 
+HTTPS((Hypertext Transfer Protocol Secure) is a secure version of HTTP.(provide a secure connection between a client and a server). 
+In summary, HTTP is the standard protocol for transmitting data over the internet, while HTTPS adds an extra layer of security through encryption
+
+4.Can you give some examples of common HTTP response codes?
+
+404 Not Found :requested resource could not be found on the server
+500 Internal Server Error: Indicates that something went wrong on the server's end.
+
+5.What is the difference between authorization and authentication?
+
+Authentication confirms identity, while authorization controls access to resources or actions based on that identity.
+
+6.How would you explain to a 5-year-old how the WWW works?
+
+I would tell him to imagine that is like a big library in the sky. In this library, there are lots and lots of books, pictures, and videos. These are all stored in different rooms called "websites." Now, when you want to see something, like a funny cat video or a picture of your favorite animal, you use a special machine called a computer . This machine helps you to ask the magical library for the book or picture you want to see. The library sends the book or picture back to your machine, and then you can see it on your screen.
+
+That's how it works!
